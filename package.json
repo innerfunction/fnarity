@@ -1,0 +1,33 @@
+{
+    "name": "fnarity",
+    "description": "Multi-arity and variadic functions",
+    "version": "0.1",
+    "author": {
+        "name": "Julian Goacher",
+        "email": "julian.goacher@innerfunction.com"
+    },
+    "keywords": "arity variadic wrapper",
+    "homepage": "http://innerfunction.com/",
+    "main": "./lib/fnarity.js",
+    "devDependencies": {
+        "vows": ">= 0.6.3"
+    },
+    "engines": {
+        "node": ">= 0.6.15"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/innerfunction/fnarity.git"
+    },
+    "bugs": {
+        "url": "http://github.com/innerfunction/fnarity/issues",
+        "email": "fnarity@innerfunction.com"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+    },
+    "scripts": {
+        "test": "vows --spec vows/*.js"
+    }
+}

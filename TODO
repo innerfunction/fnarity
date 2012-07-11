@@ -1,0 +1,5 @@
+Consider allowing variadic args to be defined in arg positions over than last position, e.g.:
+
+    var fprintf = afn(['fd','str','params...','callback']);
+
+But note that it still needs to appear in the highest arity arg list.
