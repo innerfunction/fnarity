@@ -1,6 +1,6 @@
 var vows = require('vows');
 var assert = require('assert');
-var afn = require('../src/fnarity').wrapper;
+var afn = require('../lib/fnarity').wrapper;
 
 var conflate = function( args ) {
     // Conflate the properties on an object and its prototype(s) into a single object.
